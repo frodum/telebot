@@ -3,11 +3,11 @@ Description=Telegram Bot
 After=network.target
 
 [Service]
-User=vladimir
-Group=vladimir
+User=lupizdrik
+Group=lupizdrik
 
-WorkingDirectory=/home/vladimir/tele_bot/
-Environment="PYTHONPATH=/home/vladimir/tele_bot/"
+WorkingDirectory=/home/lupizdrik/telebot/
+Environment="PYTHONPATH=/home/lupizdrik/telebot/"
 ExecStart=/home/lupizdrik/telebot/.venv/bin/python /home/lupizdrik/telebot/ubuntu18/bot.py
 
 [Install]
